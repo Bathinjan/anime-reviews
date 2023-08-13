@@ -1,3 +1,4 @@
+// Earlier version of Card.js, saving for reference cuz I forgor how to do things
 import { Container, Card, Col, Button } from "react-bootstrap";
 
 export default function Card2(props) {

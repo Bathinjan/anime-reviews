@@ -1,13 +1,6 @@
 import { Container, Card, Col, Button } from "react-bootstrap";
 
 export default function Card1(props) {
-  // let badgeText = "Book Now";
-  // let buttonVariant = "primary";
-  // if (props.openSpots === 0) {
-  //   badgeText = "Sold Out";
-  //   buttonVariant = "danger";
-  // }
-
   // returns a specified number of ascii stars as a span
   function starArray(num) {
     return [...Array(num)].map((star) => {
