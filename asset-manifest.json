@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anime-reviews/static/css/main.55e7547d.css",
+    "main.js": "/anime-reviews/static/js/main.b478e78a.js",
+    "static/js/787.066d7c4e.chunk.js": "/anime-reviews/static/js/787.066d7c4e.chunk.js",
+    "index.html": "/anime-reviews/index.html",
+    "main.55e7547d.css.map": "/anime-reviews/static/css/main.55e7547d.css.map",
+    "main.b478e78a.js.map": "/anime-reviews/static/js/main.b478e78a.js.map",
+    "787.066d7c4e.chunk.js.map": "/anime-reviews/static/js/787.066d7c4e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55e7547d.css",
+    "static/js/main.b478e78a.js"
+  ]
+}
