@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Card1 from "./components/Card";
+import data from "./components/data2";
 
-function App() {
+//TODO: https://youtu.be/bMknfKXIFA8?t=16728
+
+export default function App() {
+  // map over JS array data
+  const cards = data.map((object) => {
+    // return instance of Card with props from data properties
+    return (
+      <>
+        <Card1 key={object.id} {...object} />
+      </>
+    );
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar navTitle="Bath's Anime List" />
+      <Hero headerText="Some Recommendations" />
+      <div className="card-grid">{cards.slice(0, 3)}</div>
+      <br></br>
+      <div className="card-grid">{cards.slice(3, 6)}</div>
+      <br></br>
+      <div className="card-grid">{cards.slice(6, 9)}</div>
+      <br></br>
+    </>
   );
 }
-
-export default App;
