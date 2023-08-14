@@ -9,7 +9,7 @@ export default [
   },
   {
     id: 2,
-    image: "../public/images/golden-boy.jpg",
+    image: "/images/golden-boy.jpg",
     title: "Golden Boy",
     rating: "5",
     genre: "Adventure, Comedy, Ecchi",
@@ -18,7 +18,7 @@ export default [
   },
   {
     id: 3,
-    image: "../public/images/chobits.jpg",
+    image: "/images/chobits.jpg",
     title: "Chobits",
     rating: "3",
     genre: "Comedy, Drama, Romance, Sci-Fi, Ecchi",
@@ -26,7 +26,7 @@ export default [
   },
   {
     id: 4,
-    image: "../public/images/bocchi-the-rock.jpg",
+    image: "/images/bocchi-the-rock.jpg",
     title: "Bocchi the Rock!",
     rating: "4",
     genre: "Comedy",
@@ -34,7 +34,7 @@ export default [
   },
   {
     id: 5,
-    image: "../public/images/baccano.jpg",
+    image: "/images/baccano.jpg",
     title: "Baccano!",
     rating: "5",
     genre: "Action, Comedy, Mystery, Supernatural",
@@ -42,7 +42,7 @@ export default [
   },
   {
     id: 6,
-    image: "../public/images/inuyashiki.jpg",
+    image: "/images/inuyashiki.jpg",
     title: "Inuyashiki",
     rating: "5",
     genre: "Action, Drama, Sci-Fi",
@@ -51,7 +51,7 @@ export default [
   },
   {
     id: 7,
-    image: "../public/images/punchline.jpg",
+    image: "/images/punchline.jpg",
     title: "Punchline",
     rating: "4",
     genre: "Comedy, Sci-Fi, Supernatural, Ecchi",
@@ -60,7 +60,7 @@ export default [
   },
   {
     id: 8,
-    image: "../public/images/terror-in-resonance.jpg",
+    image: "/images/terror-in-resonance.jpg",
     title: "Terror In Resonance",
     rating: "5",
     genre: "Mystery, Suspense",
