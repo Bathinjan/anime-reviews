@@ -1,4 +1,5 @@
-import { Container, Card, Col, Button } from "react-bootstrap";
+import { Container, Card, Button } from "react-bootstrap";
+import pic from "../images/banana-fish.jpg";
 
 export default function Card1(props) {
   // returns a specified number of ascii stars as a span
@@ -14,7 +15,11 @@ export default function Card1(props) {
         <div className="d-flex">
           <Card className="card">
             <div className="text-center">
-              <Card.Img variant="top" className="card-pic" src={props.image} />
+              <Card.Img
+                variant="top"
+                className="card-pic"
+                src={process.env.PUBLIC_URL + props.image} // props.image
+              />
             </div>
             <Card.Body>
               <Card.Title className="card-title">{props.title}</Card.Title>
