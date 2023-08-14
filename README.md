@@ -1,5 +1,7 @@
 # Bath's Anime Reviews
-Built using the MyAnimeList API to make anime recommendations:
+Built using React and JS.
+
+ Uses the MyAnimeList API to make anime recommendations:
 
  - Look for recommendations based on genre, rating, or linked PV
  - Create and curate a watchlist
