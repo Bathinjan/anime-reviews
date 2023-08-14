@@ -18,7 +18,7 @@ export default function Card1(props) {
               <Card.Img
                 variant="top"
                 className="card-pic"
-                src={process.env.PUBLIC_URL + "/images/banana-fish.jpg"} // props.image
+                src={process.env.PUBLIC_URL + props.image} // props.image
               />
             </div>
             <Card.Body>
