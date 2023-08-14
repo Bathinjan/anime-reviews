@@ -1,7 +1,7 @@
 export default [
   {
     id: 1,
-    image: "./anime-reviews/images/banana-fish.jpg",
+    image: "./anime-reviews/public/images/banana-fish.jpg",
     title: "Banana Fish",
     rating: "5",
     genre: "Action, Adventure, Drama, Suspense, BL",
